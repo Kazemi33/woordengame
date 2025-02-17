@@ -1,0 +1,59 @@
+@tailwind base;
+
+@layer base {
+  .App {
+    @apply h-screen text-center pt-24;
+    background-image: url(../../assets/abstract-and-magical-enchanted-forest-background-environment-for-a-battle-arena-mobile-game-enchanted-forest-path-landscape-flat-cartoon-style-3d-realistic-illustration-ai-generated-free-photo.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .container-main {
+    @apply justify-center items-center  w-2/3 h-2/3 top-auto rounded-5xl grid grid-cols-2 grid-rows-3 gap-2  mx-auto p-8;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  .menu-btn {
+    @apply self-center w-2/3 h-full bg-white rounded-4xl mx-auto px-8 align-middle;
+    cursor: pointer;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    &:hover {
+      @apply border-8 shadow-md shadow-black;
+    }
+  }
+  h1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    @apply text-4xl font-bold text-gray-800;
+  }
+
+  .lente {
+    background-image: url(../../assets/7268899.png);
+    border: 1px solid #fb5a67;
+  }
+  .zomer {
+    background-image: url(../../assets/1768867f9ff670920996e960a847d273.jpg);
+    border: 1px solid #fec900;
+  }
+  .herfst {
+    background-image: url(../../assets/12705539.png);
+    border: 1px solid #fd5426;
+  }
+  .winter {
+    background-image: url(../../assets/6635320.png);
+    border: 1px solid #38aaff;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

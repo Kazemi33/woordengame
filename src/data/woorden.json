@@ -1,0 +1,111 @@
+{
+  "lente": {
+    "woorden": [
+      "bloemen",
+      "zon",
+      "bloeien",
+      "lente",
+      "vogels",
+      "groen",
+      "lammetjes",
+      "regen",
+      "bomen",
+      "bijen",
+      "fris",
+      "natuur",
+      "parken",
+      "wandelingen",
+      "ontwaken"
+    ],
+    "kleding": [
+      "jas",
+      "trui",
+      "regenjas",
+      "sneakers",
+      "lichte sjaal",
+      "vest",
+      "t-shirt"
+    ]
+  },
+  "zomer": {
+    "woorden": [
+      "zon",
+      "warm",
+      "strand",
+      "ijsje",
+      "zwemmen",
+      "vakantie",
+      "barbecue",
+      "bloemen",
+      "hitte",
+      "zand",
+      "zomerkamp",
+      "picknick",
+      "buiten spelen",
+      "zonsondergang"
+    ],
+    "kleding": [
+      "t-shirt",
+      "short",
+      "zonnebril",
+      "sandalen",
+      "jurk",
+      "slippers",
+      "hoed"
+    ]
+  },
+  "herfst": {
+    "woorden": [
+      "regen",
+      "wind",
+      "bladeren",
+      "herfst",
+      "pompoen",
+      "paddenstoel",
+      "kastanje",
+      "kouder",
+      "storm",
+      "mist",
+      "eikels",
+      "boswandeling",
+      "oogst",
+      "korte dagen"
+    ],
+    "kleding": [
+      "regenjas",
+      "laarzen",
+      "sjaal",
+      "warme trui",
+      "handschoenen",
+      "dikke sokken",
+      "muts"
+    ]
+  },
+  "winter": {
+    "woorden": [
+      "sneeuw",
+      "koud",
+      "winter",
+      "kerst",
+      "schaatsen",
+      "ijs",
+      "warme chocomel",
+      "handschoenen",
+      "vriezen",
+      "open haard",
+      "kerstmarkt",
+      "sleeën",
+      "donkere dagen",
+      "knus"
+    ],
+    "kleding": [
+      "winterjas",
+      "muts",
+      "handschoenen",
+      "sjaal",
+      "laarzen",
+      "thermokleding",
+      "dikke trui"
+    ]
+  }
+}

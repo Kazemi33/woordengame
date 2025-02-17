@@ -1,0 +1,19 @@
+@layer base {
+  .container-spring {
+    @apply bg-[#c4f57a] min-h-screen  p-5;
+    nav {
+      @apply absolute;
+    }
+    li {
+      @apply text-3xl font-bold;
+    }
+
+    .container-spring-content {
+      @apply h-screen;
+      background-image: url("../../assets/roadNew.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}
