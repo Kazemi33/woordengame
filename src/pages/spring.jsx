@@ -3,10 +3,8 @@ import { Context } from "../components/menu";
 import charachter1 from "../assets/character1.png";
 import charachter2 from "../assets/character2.png";
 const Spring = () => {
-  const { data } = useContext(Context);
-  const springData = Object.values(data[0]).map((item) => item);
-  const [selectedMenu, setSelectedMenu] = useState("woorden");
-  // useEffect(() => {}, [selectedMenu]);
+  const [selectedMenu, setSelectedMenu] = useState("words");
+
   const selectMenuHandler = (e) => {
     return setSelectedMenu(e);
   };
@@ -47,19 +45,17 @@ const Spring = () => {
       />
     );
   };
-  useEffect(() => {
-    // movementCharacter();
-  }, [position]);
-  console.log(position);
+
   return (
     <div className="container-spring">
       <nav>
         <ol>
-          {Object.keys(data[0].lente).map((item, index) => (
-            <li onClick={() => selectMenuHandler(item)} key={index}>
-              {index + 1}- {item}
-            </li>
-          ))}
+          <li onClick={() => selectMenuHandler("clothes")} key={1}>
+            1- Kleding
+          </li>
+          <li onClick={() => selectMenuHandler("words")} key={2}>
+            2- Woorden
+          </li>
         </ol>
       </nav>
 
