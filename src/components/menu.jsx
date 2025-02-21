@@ -1,10 +1,10 @@
 import React, { createContext, useEffect, useState } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import App from "./App.jsx";
-import Spring from "../pages/spring.jsx";
-import Winter from "../pages/winter.jsx";
-import Summer from "../pages/summer.jsx";
-import Autumn from "../pages/autumn.jsx";
+// import Spring from "../pages/spring.jsx";
+// import Winter from "../pages/winter.jsx";
+// import Summer from "../pages/summer.jsx";
+// import Autumn from "../pages/autumn.jsx";
 import UploadeImages from "./uploadeImages.jsx";
 import { getClothesData, getWordsData, getSeasonsData } from "../data/api.jsx";
 import Home from "../pages/home.jsx";

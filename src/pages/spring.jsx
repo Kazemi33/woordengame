@@ -59,16 +59,6 @@ const Spring = () => {
         </ol>
       </nav>
 
-      {/* {springData.map((item, index) => {
-        return (
-          <ul>
-            {item[selectedMenu].map((item, index) => {
-              return <li key={index}>{item}</li>;
-            })}
-          </ul>
-        );
-      })} */}
-
       <div className="container-spring-content">{<MyCharacter />}</div>
     </div>
   );
